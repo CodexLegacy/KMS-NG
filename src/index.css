@@ -634,6 +634,7 @@ body {
   padding: 10px 20px;
   margin-bottom: 15px;
 }
+
 .table-header {
   width: auto;
 }
@@ -661,7 +662,7 @@ body {
 
 .options-btn {
   font-weight: 500;
-  width: 22%;
+  /* width: 22%; */
   margin-left: 2%;
   font-size: 14px;
   background: #FFFFFF;
@@ -669,7 +670,7 @@ body {
   border-radius: 8px;
   text-align: center;
   color: #2D2F39;
-  padding: 10px;
+  padding: 10px 5px;
   border: 2px solid rgba(159, 162, 180, 0.2);
   cursor: pointer;
 }
@@ -716,7 +717,7 @@ table tr td {
 }
 
 .main-table {
-  width: 94%;
+  width: 93%;
   background: #FFFFFF;
   box-shadow: 0px 16px 32px rgba(9, 11, 23, 0.2);
   border-radius: 8px;
@@ -796,4 +797,27 @@ table tr td {
 
 .buttons-container {
   margin-top: 20px;
+}
+
+.new-customer-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.new-customer-heading-icon {
+  margin-right: 40px;
+}
+
+.new-customer-heading-icon .fa-file-upload {
+  color: #9799A0;
+  margin-right: 5px;
+}
+
+.new-customer-heading-icon span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #50525B;
 }
