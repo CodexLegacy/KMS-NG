@@ -266,6 +266,7 @@ body {
 }
 
 .main-body {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   /* flex-basis: 100%; */
@@ -277,10 +278,11 @@ body {
   background: #FFFFFF;
   box-shadow: 0px 16px 32px rgba(9, 11, 23, 0.2);
   border-radius: 8px;
-  width: 700px;
+  width: 70%;
 }
 
 .main-body-right {
+  width: 30%;
   padding: 0 10px;
 }
 
@@ -631,6 +633,13 @@ body {
   padding: 10px 20px;
   margin-bottom: 15px;
 }
+.table-header {
+  width: auto;
+}
+
+.table {
+  width: 100%
+}
 
 .header-botton-row {
   display: flex;
@@ -638,14 +647,21 @@ body {
 }
 
 .header-button-row-btns {
-  width: 45%;
+  width: 54%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+}
+
+.divider-right {
+  border-right: #2d67da;
+  border-width: 2px solid;
+  margin: 0 1%;
 }
 
 .options-btn {
   font-weight: 500;
+  width: 22%;
+  margin-left: 2%;
   font-size: 14px;
   background: #FFFFFF;
   box-shadow: 0px 16px 32px rgba(9, 11, 23, 0.2);
@@ -699,7 +715,7 @@ table tr td {
 }
 
 .main-table {
-  width: 1055px;
+  width: 94%;
   /* height: 648px; */
   background: #FFFFFF;
   box-shadow: 0px 16px 32px rgba(9, 11, 23, 0.2);

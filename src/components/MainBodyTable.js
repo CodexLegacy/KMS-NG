@@ -29,12 +29,13 @@ const MainBodyTable = () => {
           <i class="fas fa-sort-down "></i>
             
             </button>
-              <button className="options-btn"><i class="fas fa-random"></i> Sort </button>
+              <button className="options-btn"><i class="fas fa-random"></i> Sort </button> 
+              <div className="divider-right" />
               <button className="options-btn"><i class="far fa-calendar-check"></i> Select range date</button>
             </div>
           </div>
       </div>
-      <table>
+      <table className="table">
         <tr>
           <th className="right-align">S/N</th>
           <th>Order Number</th>
